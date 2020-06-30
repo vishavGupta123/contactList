@@ -1,0 +1,33 @@
+body{
+    margin:0;  
+    font-family: sans-serif;  
+
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color:grey;
+}
+li{
+    list-style: none;
+}
+#contact #details{
+    background-color: lightblue;
+    margin: 10px;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:90%;
+}
+#contact #delete-button{
+    width:10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+#contact #delete-button a{
+    color:white;
+    background-color: red;
+}
